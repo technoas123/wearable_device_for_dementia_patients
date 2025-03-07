@@ -61,6 +61,6 @@ def send_sos_alert():
             from_=TWILIO_NUMBER,
             to=CAREGIVER_NUMBER
         )
-        messagebox.showinfo("SOS Alert", "Emergency alert sent successfully!")
+        messagebox.showinfo("SOS ALERT", "Emergency alert sent successfully!")
     except Exception as e:
         messagebox.showerror("Error", f"Failed to send alert: {e}")
